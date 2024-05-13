@@ -3,9 +3,7 @@
 	"version": "0.0.1",
 	"description": "A DSL to define Remix routes with code",
 	"license": "MIT",
-	"funding": [
-		"https://github.com/sponsors/sergiodxa"
-	],
+	"funding": ["https://github.com/sponsors/sergiodxa"],
 	"author": {
 		"name": "Sergio Xalambrí",
 		"email": "hello+oss@sergiodxa.com",
@@ -33,12 +31,9 @@
 	"engines": {
 		"node": ">=20.0.0"
 	},
-	"files": [
-		"build",
-		"package.json",
-		"README.md"
-	],
+	"files": ["build", "package.json", "README.md"],
 	"exports": {
+		".": "./build/index.js",
 		"./package.json": "./package.json"
 	},
 	"dependencies": {
