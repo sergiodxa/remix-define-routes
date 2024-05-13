@@ -80,6 +80,29 @@ type LayoutFunctionArgs =
 	| [string, CreateRouteFunctionArgs, RouteCallback];
 
 interface DefineRoutesCallbackArgs {
+	/**
+	 * Define a route in the application. Each route has a path, based on the path
+	 * there's an associated file, which can be customized.
+	 *
+	 * Each route can also work as a layout for other nested routes, keeping both
+	 * the URL segment and the UI.
+	 * @example
+	 * route("about") // Renders at /about
+	 * @example
+	 * route("about", "landings/about")
+	 * @example
+	 * route("about", { file: "landings/about" })
+	 * @example
+	 * route("about", { base: "landings" })
+	 * @example
+	 * route("about", ({ route }) => {
+	 *   route("team") // Renders at /about/team
+	 * })
+	 * @example
+	 * route("about", { file: "landings/about" }, ({ route }) => {
+	 *   route("team") // Renders at /about/team
+	 * })
+	 */
 	route(path: string, ...args: RouteFunctionWithCallbackArgs): void;
 	base(base: string, callback: RouteCallback): void;
 	layout(path: string, ...args: LayoutFunctionArgs): void;
