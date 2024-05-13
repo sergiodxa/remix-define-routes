@@ -13,11 +13,11 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/sergiodxa/package"
+		"url": "https://github.com/sergiodxa/remix-define-routes"
 	},
-	"homepage": "https://sergiodxa.github.io/package",
+	"homepage": "https://sergiodxa.github.io/remix-define-routes",
 	"bugs": {
-		"url": "https://github.com/sergiodxa/package/issues"
+		"url": "https://github.com/sergiodxa/remix-define-routes/issues"
 	},
 	"bin": {
 		"exports": "./scripts/exports.ts"
