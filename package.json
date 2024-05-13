@@ -1,0 +1,50 @@
+{
+	"name": "package-name",
+	"version": "0.0.0",
+	"description": "A description of the package",
+	"license": "MIT",
+	"funding": ["https://github.com/sponsors/sergiodxa"],
+	"author": {
+		"name": "Sergio Xalambrí",
+		"email": "hello+oss@sergiodxa.com",
+		"url": "https://sergiodxa.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sergiodxa/package"
+	},
+	"homepage": "https://sergiodxa.github.io/package",
+	"bugs": {
+		"url": "https://github.com/sergiodxa/package/issues"
+	},
+	"bin": {
+		"exports": "./scripts/exports.ts"
+	},
+	"scripts": {
+		"build": "tsc",
+		"typecheck": "tsc --noEmit",
+		"check": "biome check .",
+		"check:apply": "biome check . --apply-unsafe"
+	},
+	"sideEffects": false,
+	"type": "module",
+	"engines": {
+		"node": ">=20.0.0"
+	},
+	"files": ["build", "package.json", "README.md"],
+	"exports": {
+		"./package.json": "./package.json"
+	},
+	"dependencies": {},
+	"peerDependencies": {},
+	"devDependencies": {
+		"@arethetypeswrong/cli": "^0.15.3",
+		"@biomejs/biome": "^1.7.2",
+		"@types/bun": "^1.1.1",
+		"citty": "^0.1.6",
+		"consola": "^3.2.3",
+		"typedoc": "^0.25.13",
+		"typedoc-plugin-mdn-links": "^3.1.23",
+		"typescript": "^5.4.5"
+	}
+}
