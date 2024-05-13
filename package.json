@@ -1,7 +1,7 @@
 {
-	"name": "package-name",
+	"name": "remix-define-routes",
 	"version": "0.0.0",
-	"description": "A description of the package",
+	"description": "A DSL to define Remix routes with code",
 	"license": "MIT",
 	"funding": ["https://github.com/sponsors/sergiodxa"],
 	"author": {
