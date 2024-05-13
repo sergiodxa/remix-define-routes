@@ -1,0 +1,175 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`defineRoutes tenant routes 1`] = `
+{
+  "routes/$tenant": {
+    "file": "tenant/home.tsx",
+    "id": "routes/$tenant",
+    "index": false,
+    "parentId": "routes/$tenant",
+    "path": "/",
+  },
+  "routes/$tenant.posts.$postId": {
+    "file": "routes/$tenant.posts.$postId.tsx",
+    "id": "routes/$tenant.posts.$postId",
+    "index": false,
+    "parentId": "routes/$tenant",
+    "path": "posts/:postId",
+  },
+  "routes/$tenant.users.$userId": {
+    "file": "routes/$tenant.users.$userId.tsx",
+    "id": "routes/$tenant.users.$userId",
+    "index": false,
+    "parentId": "routes/$tenant",
+    "path": "users/:userId",
+  },
+}
+`;
+
+exports[`defineRoutes admin routes 1`] = `
+{
+  "routes/admin": {
+    "file": "admin/home.tsx",
+    "id": "routes/admin",
+    "index": false,
+    "parentId": "routes/admin",
+    "path": "/",
+  },
+  "routes/admin.posts": {
+    "file": "routes/admin.posts.tsx",
+    "id": "routes/admin.posts",
+    "index": false,
+    "parentId": "routes/admin",
+    "path": "posts",
+  },
+  "routes/admin.users": {
+    "file": "routes/admin.users.tsx",
+    "id": "routes/admin.users",
+    "index": false,
+    "parentId": "routes/admin",
+    "path": "users",
+  },
+}
+`;
+
+exports[`defineRoutes debug routes 1`] = `
+{
+  "debug/cache": {
+    "file": "debug/cache.tsx",
+    "id": "debug/cache",
+    "index": false,
+    "parentId": "root",
+    "path": "cache",
+  },
+  "debug/email": {
+    "file": "debug/email.tsx",
+    "id": "debug/email",
+    "index": false,
+    "parentId": "root",
+    "path": "email",
+  },
+}
+`;
+
+exports[`defineRoutes full routes 1`] = `
+{
+  "debug/cache": {
+    "file": "debug/cache.tsx",
+    "id": "debug/cache",
+    "index": false,
+    "parentId": "root",
+    "path": "cache",
+  },
+  "debug/email": {
+    "file": "debug/email.tsx",
+    "id": "debug/email",
+    "index": false,
+    "parentId": "root",
+    "path": "email",
+  },
+  "routes": {
+    "file": "routes/home.tsx",
+    "id": "routes",
+    "index": false,
+    "parentId": "root",
+    "path": "/",
+  },
+  "routes/$tenant": {
+    "file": "tenant/home.tsx",
+    "id": "routes/$tenant",
+    "index": false,
+    "parentId": "routes/$tenant",
+    "path": "/",
+  },
+  "routes/$tenant.posts.$postId": {
+    "file": "routes/$tenant.posts.$postId.tsx",
+    "id": "routes/$tenant.posts.$postId",
+    "index": false,
+    "parentId": "routes/$tenant",
+    "path": "posts/:postId",
+  },
+  "routes/$tenant.users.$userId": {
+    "file": "routes/$tenant.users.$userId.tsx",
+    "id": "routes/$tenant.users.$userId",
+    "index": false,
+    "parentId": "routes/$tenant",
+    "path": "users/:userId",
+  },
+  "routes/*": {
+    "file": "routes/not-found.tsx",
+    "id": "routes/*",
+    "index": false,
+    "parentId": "root",
+    "path": "*",
+  },
+  "routes/admin": {
+    "file": "routes/admin/home.tsx",
+    "id": "routes/admin",
+    "index": false,
+    "parentId": "root",
+    "path": "admin",
+  },
+  "routes/admin.posts": {
+    "file": "routes/admin.posts.tsx",
+    "id": "routes/admin.posts",
+    "index": false,
+    "parentId": "routes/admin",
+    "path": "posts",
+  },
+  "routes/admin.users": {
+    "file": "routes/admin.users.tsx",
+    "id": "routes/admin.users",
+    "index": false,
+    "parentId": "routes/admin",
+    "path": "users",
+  },
+  "routes/posts.$postId": {
+    "file": "routes/posts.$postId.tsx",
+    "id": "routes/posts.$postId",
+    "index": false,
+    "parentId": "root",
+    "path": "posts/:postId",
+  },
+  "routes/users": {
+    "file": "routes/users.tsx",
+    "id": "routes/users",
+    "index": false,
+    "parentId": "root",
+    "path": "users",
+  },
+  "routes/users.$userId": {
+    "file": "routes/users.$userId._index.tsx",
+    "id": "routes/users.$userId",
+    "index": false,
+    "parentId": "routes/users.$userId",
+    "path": "/",
+  },
+  "routes/users.$userId.posts": {
+    "file": "routes/users.$userId.posts.tsx",
+    "id": "routes/users.$userId.posts",
+    "index": false,
+    "parentId": "routes/users.$userId",
+    "path": "posts",
+  },
+}
+`;

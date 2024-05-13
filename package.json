@@ -23,8 +23,8 @@
 	"scripts": {
 		"build": "tsc",
 		"typecheck": "tsc --noEmit",
-		"check": "biome check .",
-		"check:apply": "biome check . --apply-unsafe"
+		"quality": "biome check .",
+		"quality:fix": "biome check . --apply-unsafe"
 	},
 	"sideEffects": false,
 	"type": "module",
@@ -35,7 +35,7 @@
 	"exports": {
 		"./package.json": "./package.json"
 	},
-	"dependencies": {},
+	"dependencies": { "@remix-run/dev": "^2.9.2" },
 	"peerDependencies": {},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.15.3",
