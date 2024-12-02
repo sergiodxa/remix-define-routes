@@ -44,7 +44,7 @@
 		"@types/bun": "^1.1.1",
 		"citty": "^0.1.6",
 		"consola": "^3.2.3",
-		"typedoc": "^0.26.2",
+		"typedoc": "^0.27.2",
 		"typedoc-plugin-mdn-links": "^4.0.1",
 		"typescript": "^5.4.5"
 	}
