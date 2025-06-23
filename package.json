@@ -40,7 +40,7 @@
 	"peerDependencies": {},
 	"devDependencies": {
 		"@arethetypeswrong/cli": "^0.18.1",
-		"@biomejs/biome": "^1.7.2",
+		"@biomejs/biome": "^2.0.4",
 		"@types/bun": "^1.1.1",
 		"citty": "^0.1.6",
 		"consola": "^3.2.3",
