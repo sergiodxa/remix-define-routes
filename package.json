@@ -42,7 +42,7 @@
 		"@arethetypeswrong/cli": "^0.18.1",
 		"@biomejs/biome": "^2.0.4",
 		"@types/bun": "^1.1.1",
-		"citty": "^0.1.6",
+		"citty": "^0.2.0",
 		"consola": "^3.2.3",
 		"typedoc": "^0.28.0",
 		"typedoc-plugin-mdn-links": "^5.0.1",
